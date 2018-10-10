@@ -26,5 +26,5 @@ int ExternalHelloWorld(halide_buffer_t * input, int size, halide_buffer_t * outp
         out[i] = in[i]+1.0f;
     }
 
-    return 1;
+    return 0;
 }
